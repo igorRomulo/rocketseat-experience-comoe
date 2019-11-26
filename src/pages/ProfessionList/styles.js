@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -10,11 +10,11 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h2`
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
   font-size: 28px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   color: #40376e;
 `;
@@ -36,10 +36,10 @@ export const Image = styled.img`
 `;
 
 export const Description = styled.h4`
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: justify;
   padding: 10px;
   color: #40376e;
@@ -48,7 +48,7 @@ export const Description = styled.h4`
 export const Text = styled.h2`
   font-size: 22px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   color: #40376e;
 `;
