@@ -8,10 +8,11 @@ export const Container = styled.div`
 
   > h1 {
     margin: 0 0 40px;
+    text-align: center;
   }
 
   > form {
-    > button {
+    > a {
       background-color: #5c8df5;
       border: none;
       border-radius: 6px;
@@ -20,6 +21,9 @@ export const Container = styled.div`
       color: #fff;
       padding: 20px 24px;
       text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      text-align: center;
       width: 100%;
     }
   }

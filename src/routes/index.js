@@ -1,17 +1,18 @@
-import React from 'react';
-import { Switch } from 'react-router-dom';
-import Route from './Route';
+import React from "react"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 
 import SignIn from '../pages/SignIn';
 import ProfessionList from '../pages/ProfessionList';
+import Dashboard from "../pages/Dashboard"
 import Wizard from "../pages/Wizard";
 
 export default function Routes() {
   return (
-    <Switch>
+    <Router>
       <Route path="/" exact component={Wizard} />
       <Route path="/signin" exact component={SignIn} />
       <Route path="/list" component={ProfessionList} />
-    </Switch>
-  );
+      <Route path="/dashboard" component={Dashboard} />
+    </Router>
+  )
 }
